@@ -1,0 +1,49 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-color: blanchedalmond;
+  
+}
+.navbar {
+  background-color: black;
+  /* position: fixed; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  justify-content: space-between;
+  color: aliceblue;
+  margin: 5px;
+  padding: 10px;
+  
+}
+
+.acc img{
+  width: 50px;
+  padding-left: 10px;
+}
+
+.icons{
+  display: flex;
+  flex-direction:row ;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 200px;
+  gap: 10px;
+  justify-content: space-between;
+  color: aliceblue;
+
+}
+
+.icon{
+ 
+padding-left: 15px;
+padding-top: 10px;
+list-style: none;
+color: aliceblue;
+
+}
