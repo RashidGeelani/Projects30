@@ -5,21 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>navBar</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Boxicons CSS -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
 </head>
 <body>
   <nav >
-    <div class="navbar"> 
-    <div class="acc">
-      <img  src="https://images.pexels.com/photos/1337380/pexels-photo-1337380.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="logo">
+   <div class="manu">
+    <input type="checkbox" id="check">
+    <div class="logo"><a href="#">Kashur Techie</a>
     </div>
-    <ul class="icons">
-      <li class="icon"><a href="#">Home</a></li>
-      <li class="icon"><a href="#">Products</a></li>
-      <li class="icon"><a href="#">Services</a></li>
-      <li class="icon"><a href="#">Blog</a></li>
-      <li class="icon"><a href="#">Contact Us</a></li>
+    <label class="button bars" for="check"><i class='bx bx-list-ul'></i></label>
+    <ul>
+      
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Feedback</a></li>
     </ul>
-  </div>
+    <label class="button cancel" for="check"><i class='bx bx-x-circle'></i></label>
+   </div>
   </nav>
 </body>
 </html>
