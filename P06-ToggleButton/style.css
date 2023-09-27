@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+}
+
+.toggle-button{
+  position: relative;
+  height: 155px;
+  width: 300px;
+  background: #a4a2a2;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.toggle-button.active{
+  background-color: #7d2ae8;
+
+}
+
+.toggle-button .icons{
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  height: 120px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.4 ease;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+}
+.icons .bx{
+  font-size: 45px;
+
+}
+.toggle-button.active .icons{
+  left: calc(100% - 120px - 29px);
+  color: #7d2ae8;
+
+}
