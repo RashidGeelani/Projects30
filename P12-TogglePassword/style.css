@@ -4,7 +4,16 @@
   box-sizing: border-box;
 }
 body{
-  background: #250057;
+  background: #1e87dd;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 100px;
+  color: white;
 }
 
 .input-box{
@@ -22,13 +31,21 @@ body{
   width: 100%;
   padding: 10PX 0;
   border: 0;
-  outline: O;
+  outline: none;
 font-size: 24px;
 color: #555;
+}
+.input-box input :placeholder-shown{
+  padding-left: 10px;
 }
 
 .input-box .bx{
   width: 35px;
   line-height: 35px;
   cursor: pointer;
+  color: #555;
+}
+.input-box .bx:hover{
+  color: red;
+  line-height: 50px;
 }
